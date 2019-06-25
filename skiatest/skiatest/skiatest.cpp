@@ -143,6 +143,11 @@ int	doPrint(HDC hdc)
 	r.offset(20, 20);
 	canvas.drawRect(r, paint);
 
+	paint.setARGB(255, 0, 0, 0);
+	paint.setAntiAlias(true);	//∆Ù”√øπæ‚≥›
+	r.offset(100, 20);
+	canvas.drawRoundRect(r, 60, 60, paint);
+
 	LPCSTR strFont = GetUTF8String(L"Œ¢»Ì—≈∫⁄");
 	SkTypeface *font = SkTypeface::CreateFromName(strFont, SkTypeface::kBold);
 	delete strFont;
