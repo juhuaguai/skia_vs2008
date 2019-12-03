@@ -4,18 +4,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "skia.vcproj", "{366
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
-		MinSizeRel|Win32 = MinSizeRel|Win32
-		Release|Win32 = Release|Win32
 		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.Debug|Win32.Build.0 = Debug|Win32
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.Release|Win32.ActiveCfg = Release|Win32
-		{36699D48-06DC-38A1-92C1-79FED636A43E}.Release|Win32.Build.0 = Release|Win32
 		{36699D48-06DC-38A1-92C1-79FED636A43E}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{36699D48-06DC-38A1-92C1-79FED636A43E}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
